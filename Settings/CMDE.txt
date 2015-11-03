@@ -1,0 +1,55 @@
+"Function name = CMDS[0]"
+["text to match = CMDS[1]", "something else"]
+["responses = CMDS[2]", "another response"]
+["command to execute in terminal"]
+["==== Extended Commands ===="]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"list files"
+["ls", "list files"]
+["Listing files."]
+["ls"]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"sayHello"
+["say {0} to {1}"]
+["#0# #1#"]
+[""]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"say"
+["say {0}", "colour text {0}"]
+["#0#"]
+[""]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"substance list"
+["list substances", "substance list"]
+["Listing substances."]
+['cat ../Settings/substances.txt | grep "\[.*[a-z]"']
+["Substances:\tTo list substances, type substance list."]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"settings list"
+["list settings", "settings list"]
+["Listing settings."]
+['cat ../Settings/settings.txt']
+["Settings:\tTo list setings, type settings list."]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"speech test"
+["speech test"]
+["Red was widely used in prehistoric cave art, made with red hematite or iron oxide, or red ochre. Early civilizations in China, the Middle East and Europe made red dyes from the madder plant or from the a tiny insect called the kermes vermilio, Civilizations in the Americas made brilliant reds from another scale insect, the cochineal, Ancient Chinese artists during the Han Dynasty used dye from the madder plant to color silk and pigments from lead oxide to color pottery."]
+[""]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]

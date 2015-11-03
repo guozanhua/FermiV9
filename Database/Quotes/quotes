@@ -1,0 +1,2 @@
+document.write('Men`s minds are raised to the level of the women with whom they associate.<br>');
+document.write('<i>More quotes from <a href="http://www.quotedb.com/authors/alexandre-dumas">Alexandre Dumas</a></i>');

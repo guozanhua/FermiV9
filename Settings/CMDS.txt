@@ -1,0 +1,160 @@
+"Function name = CMDS[0]"
+["text to match = CMDS[1]", "something else"]
+["responses = CMDS[2]", "another response"]
+["======== HELP PAGE ========"]
+["mood value vector"]
+["mood weight vector"]
+
+"help"
+["[ , extended] help"]
+[""]
+["Help:\t\tType help or extended help."]
+[+0.0, +0.0, +0.0, +0.0, +1.0, +0.0, +0.0, +1.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.2, +0.0, +0.0, +0.1, +0.0, +0.0, +0.0, +0.0]
+
+"currentTime"
+["whats the [ ,current] [time, date, month, year, day]", "what [day, month, year, time] is it"]
+["It's currently #0#.", "It is #0#.", "It is now #0#."]
+["Time:\t\tType time for the current time."]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +1.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.1, +0.0, +0.0, +0.0, +0.0]
+
+"playMusic"
+["[play, put on] [ , song, the song] {}", "[play, shuffle, random] [, a] [music, song]", "[ , search] youtube [ , for] [, the song] {}"]
+["Playing #0# for you sir.", "Playing the song #0#.", "Starting #0#.", "#0# playing..."]
+["Music:\t\tType \"play song X\" to play a song or type shuffle."]
+[+1.0, +1.0, +0.0, +0.0, +0.0, +0.0, +0.0, +1.0, +1.0, +0.0, +0.0, +0.0]
+[+0.25, +0.1, +0.0, +0.0, +0.0, +0.0, +0.0, +0.1, +0.25, +0.0, +0.0, +0.0]
+
+"reminders"
+["[add, remove, delete, list, check, check off, uncheck] [, new] [note, reminder, todo, remind me] {0}", "[, don't forget to] remind me to {0}", "[purge] [, notes, reminders, todos]", "[check, check off] {0}", "[list] notes"]
+["#0# reminder: #1#."]
+["Reminders:\tType add reminder to create a reminder."]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +1.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.1, +0.0, +0.0, +0.0, +0.0]
+
+"rephrase"
+[""]
+["Please rephrase your query.", "Could you rephrase that?", "Please rephrase your query for me."]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"wrongCmd"
+["wrong", "incorrect", "wrong command", "that means {}", "I mean {}", "do {} instead"]
+["I'll remember that."]
+["Wrong:\t\tIf an incorrect command is performed, type \"wrong\"."]
+[+0.0, +0.0, +0.0, +0.0, +0.0, -0.25, +0.0, +1.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.25, +0.0, +0.1, +0.0, +0.0, +0.0, +0.0]
+
+"newInput"
+[""]
+[""]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"intro"
+[""]
+["#0# Tanner.\n\tThe time is #1#.\n\tHow may I help you?", "#0#, sir.\n\tIt is currently #1#.\n\tHow may I be of service?", "#0#.\n\tIt is currently #1#.\n\tHow can I help you?"]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"suggestCommand"
+["what do you want to do", "suggestion", "do what you want"]
+["I suggest #0#.", "How about #0#?", "#0# sounds good."]
+["Suggestion:\tFor a command suggestion, type suggestion."]
+[+0.0, +0.0, +0.0, +0.0, +1.0, +1.0, +0.0, +1.0, +0.0, +0.0, +0.0, +1.0]
+[+0.0, +0.0, +0.0, +0.0, +0.2, +0.5, +0.0, +0.2, +0.0, +0.0, +0.0, +0.1]
+
+"update"
+["update settings", "update"]
+["Updating settings and commands.", "Settings and commands being updated."]
+["Update:\t\tTo update commands and settings, type update."]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"changeSettings"
+["[, and, now, okay] [change, set] {} [, setting, value] to {}", "[, your] {} should be {}"]
+[""]
+["Settings:\t To change a setting, type: set X value to Y"]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"querySettings"
+["[do you remember, what, who, where, when, whats] [, is, are] {} [ , setting, value]", "[are, am] [I, you] {}"]
+["#0# #1# #2#."]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"moodReport"
+["mood report", "current [mood, state]", "[, now] how are you [, today, doing]"]
+["Generating mood report.", "Summary of my current mood."]
+["Mood report:\tTo see current mood, type mood report."]
+[+1.0, +0.0, +0.0, +0.0, +0.0, +1.0, +0.0, +0.0, +0.0, +0.0, +1.0, +0.0]
+[+0.1, +0.0, +0.0, +0.0, +0.0, +0.5, +0.0, +0.0, +0.0, +0.0, +0.1, +0.0]
+
+"deltaMoodQuery"
+["delta mood", "how did that make you feel"]
+[""]
+["Mood effect:\tTo see how something affected AI mood, ask \"how did that make you feel?\""]
+[+1.0, +0.0, +0.0, +0.0, +0.0, +1.0, +0.0, +0.0, +0.0, +0.0, +1.0, +0.0]
+[+0.1, +0.0, +0.0, +0.0, +0.0, +0.5, +0.0, +0.0, +0.0, +0.0, +0.1, +0.0]
+
+"ingest"
+["[ingest, have, try, eat, you need] [ , some, some of, a] {}"]
+["Ingesting #0#.", "Consuming some #0#.", "Having some #0#."]
+["Ingestion:\tTo feed a substance, type ingest X."]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +1.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.2, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"lastCmd"
+["rr"]
+["Performing previous command.", "Repeating last command."]
+["Last cmd:\tTo perform the last command, type rr."]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.5, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.1, +0.0, +0.0, +0.0, +0.0]
+
+"KTInterface"
+["[what do, how are] {} and {} [have in common, similar]?", "tell me about {}", "make a word web about {}", "I want to know about {}", "[draw, paint, make] [, me] a [picture, painting, drawing] [about, on] {}", "summarize clipboard"]
+["Let me see...", "Give me a second...", "Let me think about this...", "Let's see...", "Give me a second to think."]
+['KTInterface:\tTo learn about something, type:\n\t\t\thow are "X" and "Y" similar?\n\t\t\tTell me about "X".\n\t\t\tMake a word web about "X\".']
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +1.0, +1.0, +0.0, +1.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.5, +0.1, +0.0, +0.25, +0.0, +0.0]
+
+"changeSettings"
+["[, and, now, okay] [change, set] {} [, setting, value] to {}"]
+[""]
+["Settings:\t To change a setting, type: set X value to Y"]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"goodbye"
+["exit", "goodbye", "bye", "xx", "goodnight", "exit()"]
+["Goodbye.", "See you later.", "Audios.", "Ciao.", "Au revoir."]
+["(to exit, type exit)"]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.0]
+
+"chat"
+[""]
+[""]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +1.0, +0.0, +1.0, +1.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.1, +0.0, +0.2, +0.1, +0.0, +0.0, +0.0]
+
+"engine"
+[""]
+[""]
+[""]
+[+0.0, +0.0, +1.0, +0.0, +0.0, +0.0, +1.0, +1.0, +0.0, +0.0, +0.0, +0.0]
+[+0.0, +0.0, +0.1, +0.0, +0.0, +0.0, +0.25, +0.1, +0.0, +0.0, +0.0, +0.0]
+
+"aasr"
+[""]
+[""]
+[""]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +1.0, +1.0, +0.0, +1.0, +0.0, +0.0]
+[+0.0, +0.0, +0.0, +0.0, +0.0, +0.0, +0.25, +0.2, +0.0, +0.1, +0.0, +0.0]

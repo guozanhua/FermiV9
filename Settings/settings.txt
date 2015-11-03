@@ -1,0 +1,55 @@
+"YOUR_NAME", "Fermi"
+
+"MY_NAME", "Tanner"
+
+"AUTONOMOUS", False
+
+"LAZINESS", 0.5
+
+"YOUR_GENDER", "male"
+
+"SPEAK", False
+
+"QUIET", False
+
+"CHIRP", False
+
+"VERBOSE_MOOD", 0.7
+
+"MUSIC_LOC", "/home/tanner/Dropbox/Music/"
+
+"SLOW_TYPE", False
+
+"DEFAULT_MOOD", [('valence', 0.0), ('arousal', 0.0), ('dominance', 0.0), ('subsistence', -1.0), ('protection', -1.0), ('affection', -1.0), ('understanding', -1.0), ('participation', -1.0), ('leisure', -1.0), ('creation', -1.0), ('identity', -1.0), ('freedom', -1.0)]
+
+"SUBSTANCE_EFFECT", 5.0
+
+"TASK_EFFECT", 1.0
+
+"MEMORY_EFFECT", 1.0
+
+"LTS_LOOKAHEAD", 5
+
+"LTS_ADDICTION_SUSCEPTIBILITY", 1.5
+
+"LTS_MEMORY_SALIENCE", 1.5
+
+"WEB_BROWSER", "google-chrome"
+
+"USE_ENGINES", False
+
+"USE_CHAT", False
+
+"MULTITASK", True
+
+"DEBUG", False
+
+"SEND_TEXT", False
+
+"CONTEXT", True
+
+"MINIMAL_GUI", True
+
+"COLOUR_SCHEME", "blue"
+
+"VAD_COLOURING", False

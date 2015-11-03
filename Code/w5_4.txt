@@ -1,0 +1,83 @@
+{
+    "How": {
+        "add": [
+            "{} [, just, only] by {}", 
+            "{} HOW {}", 
+            "{0} for {1}"
+        ], 
+        "query": [
+            "how [do, does, is, am, are, did, was, were, would, could] {}"
+        ],
+        "aformat":
+            ""
+    }, 
+    "What Who": {
+        "add": [
+            "{0} [is, am, are, was, were, would, could] [, just, only, also] [, a, the, with] {1}", 
+            "[a, the, with] {0} [is, am, are, was, were, would, could] {1}", 
+            "{} [WHAT, WHO] {}", 
+            "{0}: {1}"
+        ], 
+        "query": [
+            "what [do, does, is, am, are, did, was, were, would, could] {}", 
+            "{} [do, does, is, am, are, did, was, were] what", 
+            "who [do, does, is, am, are, did, was, were, would, could] {}", 
+            "whose {}",
+            "are {}",
+            "is {}"
+        ],
+        "aformat":
+            ""
+    }, 
+    "Where When": {
+        "add": [
+            "{} [, is, am, are, was, were, would, could] [, just, only] [, located] [at, during, in, on] {}", 
+            "{} [WHERE, WHEN, LOCATION] {}", 
+            "from {1}, {0}", 
+            "{0} from {1}",
+            "{0} [is in, is at, is on] {1}",
+            "{1} [is where] {0} [, is]"
+        ], 
+        "query": [
+            "where [do, does, is, am, are, did, was, were, would, could] {} [, at, located]", 
+            "[when, what time] [do, does, is, am, are, did, was, were, would, could] {} [, at]"
+        ],
+        "aformat":
+            ""
+    }, 
+    "Why": {
+        "add": [
+            "{} [, just, only] [because, so that] {}", 
+            "{} WHY {}"
+        ], 
+        "query": [
+            "why [do, does, is, am, are, did, was, were, would, could] {}"
+        ],
+        "aformat":
+            ""
+    }, 
+    "PrKr": {
+        "add": [
+            "prkr {0} = {1}",
+            "prkr: {0} = {1}",
+            "i did {1} reps {0}",
+            "i did {0} for {1}",
+            "{1} reps [, of] {0}"
+        ], 
+        "query": [
+            "prkr {}"
+        ],
+        "aformat":
+            "#0# = #1#."
+    }, 
+    "birthday": {
+        "add": [
+            "{0} birthday [, is] [, on, in] {1}"
+        ], 
+        "query": [
+            "when is {} birthday"
+        ],
+        "aformat":
+            "#0# birthday is #1#."
+    }
+}
