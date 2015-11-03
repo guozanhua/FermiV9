@@ -20,7 +20,7 @@ import PIL.Image
 from PIL import ImageTk
 
 DIR = '/home/tanner/Dropbox/sandbox/FermiGit/V9/'
-KTDIR = '/home/tanner/Dropbox/sandbox/KnowledgeTools/Code/'
+KTDIR = DIR+'Code/KnowledgeTools/Code/'
 
 sys.path.insert(0, KTDIR)
 from kt2 import timeout
