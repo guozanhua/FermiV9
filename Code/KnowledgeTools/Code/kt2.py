@@ -1529,7 +1529,7 @@ def demo_generality():
 
 #print "Apples(A), Bananas(B), Cats(C), Dogs(D), Plato(P)"
 
-STOP=loadData("/home/tanner/Dropbox/sandbox/WordDatabases/stopwords.txt")
+STOP=loadData("/home/tanner/Dropbox/sandbox/FermiV9/Code/KnowledgeTools/Code/stopwords.txt")
 
 tmp = lemmatizer("cats", 1) # initialize the lemmatizer
 tmp = lemmatizer("cats", 0)
@@ -1539,7 +1539,7 @@ ARvalence=[]
 ARarousal=[]
 ARdominance=[]
 
-with open('/home/tanner/Dropbox/sandbox/WordDatabases/AffectiveRatings.txt','r') as f:
+with open('/home/tanner/Dropbox/sandbox/FermiV9/Code/KnowledgeTools/Code/AffectiveRatings.txt','r') as f:
 	next(f) # skip headings
 	reader=csv.reader(f,delimiter='\t')
 	for w, v, a, d in reader:
