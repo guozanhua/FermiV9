@@ -17,7 +17,6 @@ from random import *
 import Tkinter as tk # for clipboard copying
 import signal # for watching for timeouts from web scrapes
 
-sys.path.insert(0, '/home/tanner/Dropbox/sandbox/ImageCreation/')
 import painter
 import unicodedata
 
